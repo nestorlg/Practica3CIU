@@ -183,7 +183,7 @@ void draw () {
     pushMatrix();
       translate(xJupiter,0,movJupiter*zJupiter);
       rotateY(angYJupiter);
-      jupiter = createShape(SPHERE,40);
+      jupiter = createShape(SPHERE,30);
       beginShape();
       jupiter.setTexture(imagen_jupiter);
       endShape();
